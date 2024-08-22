@@ -1,5 +1,7 @@
-<script setup></script>
+<template>
+  <div class="bg-red-700">hello my friend</div>
+</template>
 
-<template></template>
+<script></script>
 
 <style scoped></style>
