@@ -8,7 +8,6 @@ import GraphicDesign from './components/GraphicDesign.vue'
 import AppDesign from './components/AppDesign.vue'
 
 
-
 const router = createRouter({
     history: createWebHistory(),
     routes:[
@@ -20,11 +19,6 @@ const router = createRouter({
         {path:'/webdesign',component:WebDesign},
         {path:'/appdesign',component:AppDesign},
         {path:'/graphicdesign',component:GraphicDesign},
-
-
-
-
-
     ]
 })
 
