@@ -10,7 +10,7 @@ export default {
         white:'#FFFFFF',
         lightpeach:'#FFAD9B',
         darkgray:'#333136',
-        lightgray;'HEX : #333136'
+        lightgray:'#F1F3F5'
       }
     },
   },

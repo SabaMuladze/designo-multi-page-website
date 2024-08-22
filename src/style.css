@@ -13,3 +13,9 @@ p {
 h1 {
   @apply font-medium text-[48px] leading-[48px] space-x-[2px];
 }
+h2 {
+  @apply font-medium text-[40px] leading-[48px] space-x-[2px];
+}
+h3 {
+  @apply font-medium text-[20px] leading-[26px] space-x-[5px];
+}
