@@ -11,11 +11,11 @@ p {
   @apply font-normal text-[16px] leading-[26px];
 }
 h1 {
-  @apply font-medium text-[48px] leading-[48px] space-x-[2px];
+  @apply font-medium text-[48px] leading-[48px] tracking-[2px];
 }
 h2 {
-  @apply font-medium text-[40px] leading-[48px] space-x-[2px];
+  @apply font-medium text-[40px] leading-[48px] tracking-[2px];
 }
 h3 {
-  @apply font-medium text-[20px] leading-[26px] space-x-[5px];
+  @apply font-medium text-[20px] leading-[26px] tracking-[5px];
 }
