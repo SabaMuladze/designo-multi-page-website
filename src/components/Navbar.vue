@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between px-6 py-6 lg:px-[160px] lg:py-10">
+  <header class="flex justify-between px-6 py-6 lg:py-10 max-w-[1440px] m-auto">
     <div>
       <img
         class="w-[200px]"

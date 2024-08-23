@@ -1,10 +1,10 @@
 <template>
   <div class="md:p-6 md:pt-0">
     <div
-      class="bg-peach h-[843px] flex flex-col items-center overflow-hidden relative md:rounded-lg"
+      class="bg-peach h-[843px] max-w-[1440px] flex flex-col items-center overflow-hidden relative md:rounded-lg lg:flex-row lg:h-[640px] m-auto"
     >
       <div
-        class="text-center max-w-[573px] p-4 flex flex-col gap-6 items-center pt-[60px]"
+        class="text-center max-w-[573px] p-4 flex flex-col gap-6 items-center pt-[60px] lg:pl-[100px]"
       >
         <h1 class="text-white max-sm:text-[32px] max-sm:leading-[36px]">
           Award-winning custom designs and digital branding solutions
@@ -18,7 +18,9 @@
           LEARN MORE
         </button>
       </div>
-      <div class="absolute bottom-[-120px] md:bottom-[-100px]">
+      <div
+        class="absolute bottom-[-120px] md:bottom-[-100px] lg:right-[100px] lg:bottom-[-10px]"
+      >
         <img class="" src="/public/assets/home/desktop/phone.svg" alt="" />
       </div>
     </div>
