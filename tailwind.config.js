@@ -11,6 +11,9 @@ export default {
         lightpeach:'#FFAD9B',
         darkgray:'#333136',
         lightgray:'#F1F3F5'
+      },
+      fontFamily:{
+                'jost': ['Jost', 'sans-serif'],
       }
     },
   },
