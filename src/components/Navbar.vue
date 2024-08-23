@@ -7,13 +7,26 @@
         alt=""
       />
     </div>
-    <div @click="toggleHam">
+    <div class="sm:hidden" @click="toggleHam">
       <img
         v-if="hamburger"
         src="/assets/shared/mobile/icon-hamburger.svg"
         alt=""
       />
       <img v-else src="/assets/shared/mobile/icon-close.svg" alt="" />
+    </div>
+    <div class="max-sm:hidden">
+      <ul class="flex gap-4">
+        <li>
+          <router-link to="/about"><p>OUR COMPANY</p></router-link>
+        </li>
+        <li>
+          <router-link to="/locations"><p>LOCATIONS</p></router-link>
+        </li>
+        <li>
+          <router-link to="/contact"><p>CONTACT</p></router-link>
+        </li>
+      </ul>
     </div>
   </header>
 </template>

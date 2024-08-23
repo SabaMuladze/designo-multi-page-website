@@ -8,7 +8,7 @@ body {
 }
 
 p {
-  @apply font-normal text-[16px] leading-[26px];
+  @apply font-normal text-[16px] leading-[26px] text-darkgray;
 }
 h1 {
   @apply font-medium text-[48px] leading-[48px] tracking-[2px];
