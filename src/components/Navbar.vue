@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex justify-between px-6 py-6 lg:py-10 max-w-[1440px] m-auto lg:px-0"
+    class="flex justify-between px-6 py-6 lg:py-10 max-w-[1111px] m-auto lg:px-0"
   >
     <div>
       <img
