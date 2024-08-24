@@ -28,7 +28,7 @@
     </div>
   </section>
   <section class="designs">
-    <div class="flex flex-col gap-4 pt-20">
+    <div class="flex flex-col gap-4 pt-20 px-6 lg:flex-row">
       <design-card
         title="WEB DESIGN"
         mobpic="/assets/home/mobile/image-web-design.jpg"
