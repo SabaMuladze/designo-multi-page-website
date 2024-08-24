@@ -28,16 +28,26 @@
     </div>
   </section>
   <section class="designs">
-    <div>
+    <div class="flex flex-col gap-4 pt-20">
       <design-card
         title="WEB DESIGN"
         mobpic="/assets/home/mobile/image-web-design.jpg"
         tabpic="/assets/home/tablet/image-web-design.jpg"
-        despic="/assets/home/desktop/image-web-design.jpg"
+        despic="/assets/home/desktop/image-web-design-large.jpg"
       ></design-card>
-      <div>
-        <div></div>
-        <div></div>
+      <div class="flex flex-col gap-4">
+        <design-card
+          title="APP DESIGN"
+          mobpic="/assets/home/mobile/image-app-design.jpg"
+          tabpic="/assets/home/tablet/image-app-design.jpg"
+          despic="/assets/home/desktop/image-app-design.jpg"
+        ></design-card>
+        <design-card
+          title="GRAPHIC DESIGN"
+          mobpic="/assets/home/mobile/image-graphic-design.jpg"
+          tabpic="/assets/home/tablet/image-graphic-design.jpg"
+          despic="/assets/home/desktop/image-graphic-design.jpg"
+        ></design-card>
       </div>
     </div>
   </section>

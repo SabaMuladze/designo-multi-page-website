@@ -1,6 +1,13 @@
 <template>
-  <div class="relative">
-    <img :src="mobpic" alt="" />
+  <div class="relative flex flex-col justify-center items-center">
+    <img class="rounded-[12px] sm:hidden" :src="mobpic" />
+    <img class="rounded-[12px] max-sm:hidden lg:hidden" :src="tabpic" />
+    <img class="rounded-[12px] max-lg:hidden" :src="despic" />
+
+    <h2 class="absolute max-sm:text-[28px] m-auto text-white">{{ title }}</h2>
+    <h3 class="absolute top-[50%] max-sm:text-[15px] pt-[20px] text-white">
+      VIEW PROJECTS
+    </h3>
   </div>
 </template>
 
@@ -10,5 +17,6 @@ export default {
     return {};
   },
   props: ["title", "mobpic", "tabpic", "despic"],
+  computed: {},
 };
 </script>
