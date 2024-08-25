@@ -15,9 +15,10 @@
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
-          <button class="py-[17px] px-6 bg-white text-black rounded-md w-fit">
+          <!-- <button class="py-[17px] px-6 bg-white text-black rounded-md w-fit">
             LEARN MORE
-          </button>
+          </button> -->
+          <Button>LEARN MORE</Button>
         </div>
         <div
           class="absolute bottom-[-120px] md:bottom-[-100px] lg:right-[100px] lg:bottom-[-10px]"
@@ -111,9 +112,11 @@
 
 <script>
 import DesignCard from "./additional/DesignCard.vue";
+import Button from "./additional/Button.vue";
 export default {
   components: {
     DesignCard,
+    Button,
   },
 };
 </script>

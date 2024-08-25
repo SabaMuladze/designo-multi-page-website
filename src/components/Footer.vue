@@ -1,6 +1,20 @@
 <template>
   <footer class="bg-black">
     <div
+      class="bg-peach max-w-[1111px] flex flex-col items-center overflow-hidden relative md:rounded-lg lg:flex-row m-auto"
+    >
+      <div class="max-w-[459px] flex flex-col gap-4">
+        <h2 class="text-white">Let’s talk about your project</h2>
+        <p class="text-white">
+          Ready to take it to the next level? Contact us today and find out how
+          our expertise can help your business grow.
+        </p>
+      </div>
+      <div>
+        <Button>GET IN TOUCH</Button>
+      </div>
+    </div>
+    <div
       class="flex m-auto flex-col gap-5 px-6 pt-40 pb-16 max-sm:text-center max-w-[1111px]"
     >
       <div
@@ -61,5 +75,11 @@
 </template>
 
 <script>
-export default {};
+import Button from "./additional/Button.vue";
+
+export default {
+  components: {
+    Button,
+  },
+};
 </script>
