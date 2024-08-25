@@ -1,9 +1,11 @@
 <template>
-  <footer>
+  <footer class="bg-black">
     <div
-      class="bg-black flex flex-col gap-5 px-6 pt-40 pb-16 max-sm:text-center"
+      class="flex m-auto flex-col gap-5 px-6 pt-40 pb-16 max-sm:text-center max-w-[1111px]"
     >
-      <div class="flex flex-col items-center gap-5 sm:flex-row">
+      <div
+        class="flex flex-col items-center gap-5 sm:flex-row sm:justify-between"
+      >
         <div>
           <img
             class="w-[202px] h-[27px]"
@@ -33,7 +35,7 @@
         </div>
       </div>
       <div class="relative max-sm:hidden h-[1px] w-full bg-darkgray"></div>
-      <div class="flex flex-col gap-5">
+      <div class="flex flex-col gap-5 sm:flex-row sm:justify-between">
         <div>
           <strong class="text-lightgray">Designo Central Office</strong>
           <p class="text-lightgray">3886 Wellington Street</p>
@@ -46,7 +48,7 @@
           <br />
           <strong class="text-lightgray">M : contact@designo.co</strong>
         </div>
-        <div class="flex gap-4 justify-center">
+        <div class="flex gap-4 justify-center items-end">
           <img src="/assets/shared/desktop/icon-facebook.svg" alt="" />
           <img src="/assets/shared/desktop/icon-youtube.svg" alt="" />
           <img src="/assets/shared/desktop/icon-twitter.svg" alt="" />
