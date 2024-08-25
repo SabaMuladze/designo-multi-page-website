@@ -15,9 +15,6 @@
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
-          <!-- <button class="py-[17px] px-6 bg-white text-black rounded-md w-fit">
-            LEARN MORE
-          </button> -->
           <Button>LEARN MORE</Button>
         </div>
         <div

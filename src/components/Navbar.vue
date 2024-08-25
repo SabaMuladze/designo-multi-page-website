@@ -3,11 +3,13 @@
     class="flex justify-between px-6 py-6 lg:py-10 max-w-[1111px] m-auto lg:px-0"
   >
     <div>
-      <img
-        class="w-[200px]"
-        src="/assets/shared/desktop/logo-dark.png"
-        alt=""
-      />
+      <router-link to="/">
+        <img
+          class="w-[200px]"
+          src="/assets/shared/desktop/logo-dark.png"
+          alt=""
+        />
+      </router-link>
     </div>
     <div class="sm:hidden" @click="toggleHam">
       <img

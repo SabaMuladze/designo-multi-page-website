@@ -4,6 +4,7 @@
       class="flex relative m-auto flex-col gap-5 px-6 pt-[250px] pb-16 max-sm:text-center max-w-[1111px]"
     >
       <div
+        :style="deleteLetsTalk"
         class="bg-peach absolute w-[calc(100%-48px)] top-[-200px] max-h-[380px] flex flex-col items-center justify-between gap-5 right-0 mx-6 text-center py-12 px-6 rounded-lg lg:flex-row xl:mx-0 xl:w-full"
       >
         <div class="max-w-[459px] flex flex-col gap-4">
@@ -82,6 +83,13 @@ import Button from "./additional/Button.vue";
 export default {
   components: {
     Button,
+  },
+  computed: {
+    deleteLetsTalk() {
+      if (this.$route.path == "/contact") {
+        return { display: "none" };
+      }
+    },
   },
 };
 </script>
