@@ -1,6 +1,8 @@
 <template>
   <footer>
-    <div class="bg-black flex flex-col gap-5 px-6 pt-20 max-sm:text-center">
+    <div
+      class="bg-black flex flex-col gap-5 px-6 pt-40 pb-16 max-sm:text-center"
+    >
       <div class="flex flex-col items-center gap-5 sm:flex-row">
         <div>
           <img
@@ -44,7 +46,13 @@
           <br />
           <strong class="text-lightgray">M : contact@designo.co</strong>
         </div>
-        <div></div>
+        <div class="flex gap-4 justify-center">
+          <img src="/assets/shared/desktop/icon-facebook.svg" alt="" />
+          <img src="/assets/shared/desktop/icon-youtube.svg" alt="" />
+          <img src="/assets/shared/desktop/icon-twitter.svg" alt="" />
+          <img src="/assets/shared/desktop/icon-pinterest.svg" alt="" />
+          <img src="/assets/shared/desktop/icon-instagram.svg" alt="" />
+        </div>
       </div>
     </div>
   </footer>
