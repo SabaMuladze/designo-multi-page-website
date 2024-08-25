@@ -1,22 +1,24 @@
 <template>
-  <footer class="bg-black">
+  <footer class="bg-black mt-52">
     <div
-      class="bg-peach max-w-[1111px] flex flex-col items-center overflow-hidden relative md:rounded-lg lg:flex-row m-auto"
+      class="flex relative m-auto flex-col gap-5 px-6 pt-[250px] pb-16 max-sm:text-center max-w-[1111px]"
     >
-      <div class="max-w-[459px] flex flex-col gap-4">
-        <h2 class="text-white">Let’s talk about your project</h2>
-        <p class="text-white">
-          Ready to take it to the next level? Contact us today and find out how
-          our expertise can help your business grow.
-        </p>
+      <div
+        class="bg-peach absolute w-[calc(100%-48px)] top-[-200px] max-h-[380px] flex flex-col items-center justify-between gap-5 right-0 mx-6 text-center py-12 px-6 rounded-lg lg:flex-row xl:mx-0"
+      >
+        <div class="max-w-[459px] flex flex-col gap-4">
+          <h2 class="text-white max-sm:text-[32px]">
+            Let’s talk about your project
+          </h2>
+          <p class="text-white">
+            Ready to take it to the next level? Contact us today and find out
+            how our expertise can help your business grow.
+          </p>
+        </div>
+        <div>
+          <Button>GET IN TOUCH</Button>
+        </div>
       </div>
-      <div>
-        <Button>GET IN TOUCH</Button>
-      </div>
-    </div>
-    <div
-      class="flex m-auto flex-col gap-5 px-6 pt-40 pb-16 max-sm:text-center max-w-[1111px]"
-    >
       <div
         class="flex flex-col items-center gap-5 sm:flex-row sm:justify-between"
       >
