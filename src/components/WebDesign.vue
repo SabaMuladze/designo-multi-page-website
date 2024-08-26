@@ -10,9 +10,9 @@
       </p>
     </div>
   </section>
-  <section class="">
+  <section class="design cards">
     <div
-      class="flex max-w-[1111px] m-auto flex-wrap justify-center gap-6 p-6 md:flex-col md:items-center lg:flex-wrap lg:flex-row"
+      class="flex py-20 max-w-[1111px] m-auto flex-wrap justify-center gap-6 p-6 md:flex-col md:items-center lg:flex-wrap lg:flex-row lg:px-0 lg:justify-between lg:py-[100px]"
     >
       <web-design-card
         pic="/assets/web-design/desktop/image-express.jpg"
