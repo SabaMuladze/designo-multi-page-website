@@ -10,8 +10,42 @@
       </p>
     </div>
   </section>
+  <section class="p-6">
+    <web-design-card
+      pic="/assets/web-design/desktop/image-express.jpg"
+      title="EXPRESS"
+      desc="A multi-carrier shipping website for ecommerce businesses"
+    ></web-design-card>
+    <web-design-card
+      pic="/assets/web-design/desktop/image-express.jpg"
+      title="EXPRESS"
+      desc="A multi-carrier shipping website for ecommerce businesses"
+    ></web-design-card>
+    <web-design-card
+      pic="/assets/web-design/desktop/image-express.jpg"
+      title="EXPRESS"
+      desc="A multi-carrier shipping website for ecommerce businesses"
+    ></web-design-card>
+    <web-design-card
+      pic="/assets/web-design/desktop/image-express.jpg"
+      title="EXPRESS"
+      desc="A multi-carrier shipping website for ecommerce businesses"
+    ></web-design-card>
+    <web-design-card
+      pic="/assets/web-design/desktop/image-express.jpg"
+      title="EXPRESS"
+      desc="A multi-carrier shipping website for ecommerce businesses"
+    ></web-design-card>
+  </section>
 </template>
 
-<script></script>
+<script>
+import WebDesignCard from "./additional/WebDesignCard.vue";
+export default {
+  components: {
+    WebDesignCard,
+  },
+};
+</script>
 
 <style scoped></style>
