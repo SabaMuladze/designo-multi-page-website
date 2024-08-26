@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col shadow-2xl rounded-lg">
+  <div class="flex flex-col shadow-xl rounded-lg">
     <div class="">
       <img class="h-[320px] rounded-t-lg" :src="pic" alt="" />
     </div>
