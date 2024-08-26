@@ -12,7 +12,7 @@
   </section>
   <section class="">
     <div
-      class="flex flex-wrap justify-center gap-6 p-6 md:flex-col md:items-center"
+      class="flex max-w-[1111px] m-auto flex-wrap justify-center gap-6 p-6 md:flex-col md:items-center lg:flex-wrap lg:flex-row"
     >
       <web-design-card
         pic="/assets/web-design/desktop/image-express.jpg"

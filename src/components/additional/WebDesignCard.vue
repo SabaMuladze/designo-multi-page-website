@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex h-[478px] max-w-[327px] flex-col shadow-xl rounded-lg md:flex-row md:max-w-[690px] md:h-[310px]"
+    class="flex h-[478px] max-w-[327px] flex-col shadow-xl rounded-lg md:flex-row md:max-w-[690px] md:h-[310px] lg:flex-col lg:h-[478px] lg:max-w-[327px]"
   >
     <div class="">
       <img class="h-[320px] md:h-full" :src="pic" alt="" />
