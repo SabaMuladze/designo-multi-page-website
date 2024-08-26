@@ -29,25 +29,31 @@
     <div
       class="flex flex-col gap-4 py-20 px-6 items-center justify-center lg:flex-row lg:px-0"
     >
-      <design-card
-        title="WEB DESIGN"
-        mobpic="/assets/home/mobile/image-web-design.jpg"
-        tabpic="/assets/home/tablet/image-web-design.jpg"
-        despic="/assets/home/desktop/image-web-design-large.jpg"
-      ></design-card>
+      <router-link to="/webdesign">
+        <design-card
+          title="WEB DESIGN"
+          mobpic="/assets/home/mobile/image-web-design.jpg"
+          tabpic="/assets/home/tablet/image-web-design.jpg"
+          despic="/assets/home/desktop/image-web-design-large.jpg"
+        ></design-card>
+      </router-link>
       <div class="flex flex-col gap-4">
-        <design-card
-          title="APP DESIGN"
-          mobpic="/assets/home/mobile/image-app-design.jpg"
-          tabpic="/assets/home/tablet/image-app-design.jpg"
-          despic="/assets/home/desktop/image-app-design.jpg"
-        ></design-card>
-        <design-card
-          title="GRAPHIC DESIGN"
-          mobpic="/assets/home/mobile/image-graphic-design.jpg"
-          tabpic="/assets/home/tablet/image-graphic-design.jpg"
-          despic="/assets/home/desktop/image-graphic-design.jpg"
-        ></design-card>
+        <router-link to="/appdesign">
+          <design-card
+            title="APP DESIGN"
+            mobpic="/assets/home/mobile/image-app-design.jpg"
+            tabpic="/assets/home/tablet/image-app-design.jpg"
+            despic="/assets/home/desktop/image-app-design.jpg"
+          ></design-card>
+        </router-link>
+        <router-link to="/graphic design">
+          <design-card
+            title="GRAPHIC DESIGN"
+            mobpic="/assets/home/mobile/image-graphic-design.jpg"
+            tabpic="/assets/home/tablet/image-graphic-design.jpg"
+            despic="/assets/home/desktop/image-graphic-design.jpg"
+          ></design-card>
+        </router-link>
       </div>
     </div>
   </section>
