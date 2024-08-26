@@ -11,7 +11,9 @@
     </div>
   </section>
   <section class="">
-    <div class="flex flex-col gap-6 p-6">
+    <div
+      class="flex flex-wrap justify-center gap-6 p-6 md:flex-col md:items-center"
+    >
       <web-design-card
         pic="/assets/web-design/desktop/image-express.jpg"
         title="EXPRESS"
