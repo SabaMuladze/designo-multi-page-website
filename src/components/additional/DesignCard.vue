@@ -1,7 +1,10 @@
 <template>
   <div class="relative flex flex-col justify-center items-center">
-    <img class="rounded-[12px] sm:hidden" :src="mobpic" />
-    <img class="rounded-[12px] max-sm:hidden lg:hidden" :src="tabpic" />
+    <img class="rounded-[12px] w-[327px] h-[250px] sm:hidden" :src="mobpic" />
+    <img
+      class="rounded-[12px] w-[689px] h-[200px] max-sm:hidden lg:hidden"
+      :src="tabpic"
+    />
     <img class="rounded-[12px] max-lg:hidden" :src="despic" />
 
     <h2 class="absolute max-sm:text-[28px] m-auto text-white">{{ title }}</h2>
