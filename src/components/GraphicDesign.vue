@@ -28,15 +28,41 @@ Tim Brown’s new release, ‘Change’"
       ></web-design-card>
     </div>
   </section>
+  <section class="designs">
+    <div
+      class="flex flex-col gap-4 py-20 px-6 items-center justify-center lg:flex-row lg:px-0"
+    >
+      <div class="flex flex-col gap-4 lg:flex-row">
+        <router-link to="/appdesign">
+          <design-card
+            title="APP DESIGN"
+            mobpic="/assets/home/mobile/image-app-design.jpg"
+            tabpic="/assets/home/tablet/image-app-design.jpg"
+            despic="/assets/home/desktop/image-app-design.jpg"
+          ></design-card>
+        </router-link>
+        <router-link to="/webdesign">
+          <design-card
+            title="WEB DESIGN"
+            mobpic="/assets/home/desktop/image-web-design-small.jpg"
+            tabpic="/assets/home/desktop/image-web-design-small.jpg"
+            despic="/assets/home/desktop/image-web-design-small.jpg"
+          ></design-card>
+        </router-link>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
+import DesignCard from "./additional/DesignCard.vue";
 import PeachSecDesign from "./additional/PeachSecDesign.vue";
 import WebDesignCard from "./additional/WebDesignCard.vue";
 export default {
   components: {
     PeachSecDesign,
     WebDesignCard,
+    DesignCard,
   },
 };
 </script>
