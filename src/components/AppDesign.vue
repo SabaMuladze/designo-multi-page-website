@@ -50,7 +50,7 @@
             despic="/assets/home/desktop/image-web-design-small.jpg"
           ></design-card>
         </router-link>
-        <router-link to="/graphic design">
+        <router-link to="/graphicdesign">
           <design-card
             title="GRAPHIC DESIGN"
             mobpic="/assets/home/mobile/image-graphic-design.jpg"
