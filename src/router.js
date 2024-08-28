@@ -19,7 +19,14 @@ const router = createRouter({
         {path:'/webdesign',component:WebDesign},
         {path:'/appdesign',component:AppDesign},
         {path:'/graphicdesign',component:GraphicDesign},
-    ]
+    ],
+scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { left: 0, top: 0 };  // Adjusted for Vue 3
+    }
+  },
 })
 
 export default router
