@@ -8,7 +8,7 @@
       line.</template
     >
   </peach-sec-design>
-  <section class="bg-peach px-6">
+  <!-- <section class="bg-peach px-6">
     <form>
       <input
         class="bg-transparent border-b-[1px] border-solid border-white py-3 w-full text-white placeholder:text-white placeholder:opacity-70 outline-none"
@@ -36,7 +36,7 @@
         <Button> Submit </Button>
       </div>
     </form>
-  </section>
+  </section> -->
 </template>
 
 <script>
