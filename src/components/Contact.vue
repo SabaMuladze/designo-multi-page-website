@@ -11,37 +11,41 @@
   <section class="bg-peach px-6">
     <form>
       <input
-        class="bg-transparent border-b-[1px] border-solid border-white py-3 w-full text-white placeholder:text-white"
+        class="bg-transparent border-b-[1px] border-solid border-white py-3 w-full text-white placeholder:text-white placeholder:opacity-70 outline-none"
         type="text"
         placeholder="Name"
       />
       <input
-        class="bg-transparent border-b-[1px] border-solid border-white py-3 w-full text-white placeholder:text-white placeholder:opacity-70"
+        class="bg-transparent border-b-[1px] border-solid border-white py-3 w-full text-white placeholder:text-white placeholder:opacity-70 outline-none"
         type="email"
         placeholder="Email Adress"
       />
       <input
-        class="bg-transparent border-b-[1px] border-solid border-white py-3 w-full text-white placeholder:text-white placeholder:opacity-70"
+        class="bg-transparent border-b-[1px] border-solid border-white py-3 w-full text-white placeholder:text-white placeholder:opacity-70 outline-none"
         type="number"
         placeholder="Phone"
       />
       <textarea
-        class="bg-transparent w-full placeholder:text-white placeholder:opacity-70"
+        class="bg-transparent w-full placeholder:text-white placeholder:opacity-70 outline-none border-b-[1px] border-solid border-white"
         name="Message"
-        id=""
-        cols="30"
+        cols="20"
         rows="10"
         placeholder="Your Message"
       ></textarea>
+      <div class="flex justify-center p-3">
+        <Button> Submit </Button>
+      </div>
     </form>
   </section>
 </template>
 
 <script>
+import Button from "./additional/Button.vue";
 import PeachSecDesign from "./additional/PeachSecDesign.vue";
 export default {
   components: {
     PeachSecDesign,
+    Button,
   },
 };
 </script>
