@@ -3,10 +3,10 @@
     class="w-full h-full flex flex-col justify-center items-center lg:flex-row lg:h-[480px]"
   >
     <div
-      class="p-6 bg-peach max-w-[1111px] lg:flex-1 md:m-0 lg:h-[480px] lg:flex-row lg:items-center"
+      class="p-6 flex flex-col gap-10 bg-peach max-w-[1111px] lg:flex-1 md:m-0 lg:h-[480px] lg:flex-row lg:items-center"
     >
-      <div class="flex flex-col gap-4">
-        <h1 class="text-white">Contact Us</h1>
+      <div class="flex mt-10 flex-col gap-4 text-center lg:text-start">
+        <h1 class="text-white max-sm:text-[32px]">Contact Us</h1>
         <p class="text-white max-w-[400px]">
           Ready to take it to the next level? Let’s talk about your project or
           idea and find out how we can help your business grow. If you are
