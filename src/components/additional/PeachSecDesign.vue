@@ -7,7 +7,7 @@
         <h1 class="text-white">
           <slot name="header"></slot>
         </h1>
-        <p class="text-white">
+        <p class="text-white max-w-[400px]">
           <slot name="body"></slot>
         </p>
       </div>

@@ -3,8 +3,17 @@
     class="w-full h-full flex flex-col justify-center items-center lg:flex-row lg:h-[480px]"
   >
     <div
-      class="px-6 bg-peach max-w-[1111px] m-auto mx-6 mt-[-5px] lg:flex-1 md:m-0 lg:h-[480px] lg:flex lg:items-center"
+      class="p-6 bg-peach max-w-[1111px] lg:flex-1 md:m-0 lg:h-[480px] lg:flex-row lg:items-center"
     >
+      <div class="flex flex-col gap-4">
+        <h1 class="text-white">Contact Us</h1>
+        <p class="text-white max-w-[400px]">
+          Ready to take it to the next level? Let’s talk about your project or
+          idea and find out how we can help your business grow. If you are
+          looking for unique digital experiences that’s relatable to your users,
+          drop us a line.
+        </p>
+      </div>
       <form>
         <input
           class="bg-transparent border-b-[1px] border-solid border-white py-3 w-full text-white placeholder:text-white placeholder:opacity-70 outline-none"
