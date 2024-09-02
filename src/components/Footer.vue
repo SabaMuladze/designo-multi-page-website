@@ -1,6 +1,7 @@
 <template>
   <footer class="bg-black mt-52">
     <div
+      :style="changePaddingTop"
       class="flex relative m-auto flex-col gap-5 px-6 pt-[250px] pb-16 max-sm:text-center max-w-[1111px]"
     >
       <div
@@ -88,6 +89,11 @@ export default {
     deleteLetsTalk() {
       if (this.$route.path == "/contact") {
         return { display: "none" };
+      }
+    },
+    changePaddingTop() {
+      if (this.$route.path == "/contact") {
+        return { paddingTop: "4rem" };
       }
     },
   },
