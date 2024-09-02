@@ -45,15 +45,20 @@
       </form>
     </div>
   </div>
+  <section class="mt-52">
+    <see-location-cards></see-location-cards>
+  </section>
 </template>
 
 <script>
 import Button from "./additional/Button.vue";
 import PeachSecDesign from "./additional/PeachSecDesign.vue";
+import SeeLocationCards from "./additional/SeeLocationCards.vue";
 export default {
   components: {
     PeachSecDesign,
     Button,
+    SeeLocationCards,
   },
 };
 </script>
