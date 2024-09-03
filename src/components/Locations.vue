@@ -1,12 +1,14 @@
 <template>
   <section class="flex flex-col items-center">
     <div
-      class="flex flex-col gap-10 pb-20 md:px-6 sm:max-w-[690px] lg:max-w-[1111px]"
+      class="flex w-full flex-col gap-10 pb-20 md:px-6 sm:max-w-[690px] lg:max-w-[1111px] lg:px-0"
     >
-      <div class="flex flex-col md:gap-5">
+      <div
+        class="flex flex-col md:gap-5 lg:flex-row-reverse lg:justify-between"
+      >
         <div>
           <img
-            class="w-full h-[326px] md:rounded-lg md:hidden lg:visible"
+            class="w-full h-[326px] md:rounded-lg md:hidden lg:block"
             src="
                 /public/assets/locations/desktop/image-map-canada.png
             "
@@ -19,7 +21,7 @@
           />
         </div>
         <div
-          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center py-10 md:rounded-lg md:flex-row md:pl-16 md:gap-[120px] md:items-center h-[326px]"
+          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center py-10 md:rounded-lg md:flex-row md:pl-16 md:gap-[120px] md:items-center h-[326px] lg:w-[730px]"
         >
           <div>
             <h2 class="text-peach max-sm:text-[32px] mb-5">Canada</h2>
@@ -34,10 +36,10 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col md:gap-5">
+      <div class="flex flex-col md:gap-5 lg:flex-row lg:justify-between">
         <div>
           <img
-            class="w-full h-[326px] md:rounded-lg md:hidden lg:visible"
+            class="w-full h-[326px] md:rounded-lg md:hidden lg:block"
             src="/public/assets/locations/desktop/image-map-australia.png"
             alt=""
           />
@@ -48,7 +50,7 @@
           />
         </div>
         <div
-          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center py-10 md:rounded-lg md:flex-row md:pl-16 md:gap-[120px] md:items-center h-[326px]"
+          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center py-10 md:rounded-lg md:flex-row md:pl-16 md:gap-[120px] md:items-center h-[326px] lg:w-[730px]"
         >
           <div>
             <h2 class="text-peach max-sm:text-[32px] mb-5">Australia</h2>
@@ -63,10 +65,12 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col md:gap-5">
+      <div
+        class="flex flex-col md:gap-5 lg:justify-between lg:flex-row-reverse"
+      >
         <div>
           <img
-            class="w-full h-[326px] md:rounded-lg md:hidden lg:visible"
+            class="w-full h-[326px] md:rounded-lg md:hidden lg:block"
             src="/public/assets/locations/desktop/image-map-united-kingdom.png"
             alt=""
           />
@@ -77,7 +81,7 @@
           />
         </div>
         <div
-          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center py-10 md:rounded-lg md:flex-row md:pl-16 h-[326px]"
+          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center py-10 md:rounded-lg md:flex-row md:pl-16 h-[326px] lg:w-[730px]"
         >
           <div>
             <h2 class="text-peach max-sm:text-[32px] mb-5">United Kingdom</h2>
