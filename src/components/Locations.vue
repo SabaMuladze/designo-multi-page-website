@@ -1,15 +1,16 @@
 <template>
   <section>
-    <div class="flex flex-col">
+    <div class="flex flex-col gap-10 pb-20">
       <div>
         <div>
           <img
-            src="/public/assets/locations/tablet/image-map-canada.png"
+            class="w-full max-h-[326px]"
+            src="/public/assets/locations/desktop/image-map-canada.png"
             alt=""
           />
         </div>
         <div
-          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center"
+          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center py-10"
         >
           <div>
             <h2 class="text-peach max-sm:text-[32px]">Canada</h2>
@@ -27,12 +28,13 @@
       <div>
         <div>
           <img
-            src="/public/assets/locations/tablet/image-map-australia.png"
+            class="w-full max-h-[326px]"
+            src="/public/assets/locations/desktop/image-map-australia.png"
             alt=""
           />
         </div>
         <div
-          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center"
+          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center py-10"
         >
           <div>
             <h2 class="text-peach max-sm:text-[32px]">Australia</h2>
@@ -49,10 +51,14 @@
       </div>
       <div>
         <div>
-          <img src="/public/assets/locations/tablet/image-map-uk.png" alt="" />
+          <img
+            class="w-full max-h-[326px]"
+            src="/public/assets/locations/desktop/image-map-united-kingdom.png"
+            alt=""
+          />
         </div>
         <div
-          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center"
+          class="bg-[#FDF3F0] flex flex-col gap-5 items-center max-sm:text-center py-10"
         >
           <div>
             <h2 class="text-peach max-sm:text-[32px]">United Kingdom</h2>
