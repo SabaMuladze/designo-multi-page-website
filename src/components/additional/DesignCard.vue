@@ -20,6 +20,5 @@ export default {
     return {};
   },
   props: ["title", "mobpic", "tabpic", "despic"],
-  computed: {},
 };
 </script>
