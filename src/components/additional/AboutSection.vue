@@ -8,8 +8,8 @@
           <img class="max-lg:hidden" :src="despic" alt="" />
         </div>
         <div>
-          <h1></h1>
-          <p></p>
+          <h1>{{ header }}</h1>
+          <p>{{ desc }}</p>
         </div>
       </div>
     </div>
