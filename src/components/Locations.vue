@@ -1,7 +1,7 @@
 <template>
   <section class="flex flex-col items-center">
     <div
-      class="flex w-full flex-col gap-10 pb-20 md:px-6 sm:max-w-[690px] lg:max-w-[1111px] lg:px-0"
+      class="flex w-full flex-col gap-10 pb-20 md:px-6 sm:max-w-[690px] lg:max-w-[1111px] xl:px-0"
     >
       <div
         class="flex flex-col md:gap-5 lg:flex-row-reverse lg:justify-between"

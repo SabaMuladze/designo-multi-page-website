@@ -1,15 +1,17 @@
 <template>
-  <section>
-    <div :class="`w-full flex justify-center sm:px-6 max-lg:text-center `">
+  <section class="pb-[64px]">
+    <div
+      :class="`w-full flex justify-center sm:px-6 max-lg:text-center lg:h-[480px] `"
+    >
       <div
         :class="
-          'flex flex-col w-full gap-10 sm:max-w-[690px]  sm:rounded-lg pb-10 lg:max-w-[1111px] ' +
+          'flex flex-col w-full gap-10 sm:max-w-[690px]  sm:rounded-lg pb-10 lg:pb-0 lg:max-w-[1111px] lg:flex-row-reverse lg:gap-0 ' +
           textCol +
           ' ' +
           bgCol
         "
       >
-        <div>
+        <div class="lg:w-[476px]">
           <img
             class="md:hidden sm:rounded-t-lg w-full h-[320px]"
             :src="mobpic"
@@ -21,12 +23,14 @@
             alt=""
           />
           <img
-            class="max-lg:hidden sm:rounded-lg w-full h-[480px]"
+            class="max-lg:hidden sm:rounded-r-lg w-full h-[480px] lg:w-[476px]"
             :src="despic"
             alt=""
           />
         </div>
-        <div class="flex flex-col gap-5 md:px-10 px-6">
+        <div
+          class="flex flex-col gap-5 md:px-10 px-6 lg:flex-1 lg:justify-center"
+        >
           <h1 :class="'max-sm:text-[32px] ' + headCol">{{ header }}</h1>
           <p :class="textCol">{{ desc }}</p>
         </div>
