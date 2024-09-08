@@ -1,15 +1,19 @@
 <template>
   <section>
-    <div :class="`w-full flex justify-center ` + textCol + ' ' + bgCol">
-      <div class="max-w-[1111px]">
+    <div :class="`w-full flex justify-center max-lg:text-center  `">
+      <div :class="'max-w-[690px] lg:max-w-[1111px]' + textCol + ' ' + bgCol">
         <div>
-          <img class="md:hidden" :src="mobpic" alt="" />
-          <img class="max-md:hidden lg:hidden" :src="tabpic" alt="" />
-          <img class="max-lg:hidden" :src="despic" alt="" />
+          <img class="md:hidden w-full h-[320px]" :src="mobpic" alt="" />
+          <img
+            class="max-md:hidden lg:hidden w-full h-[320px]"
+            :src="tabpic"
+            alt=""
+          />
+          <img class="max-lg:hidden w-full" :src="despic" alt="" />
         </div>
         <div>
           <h1 :class="'' + headCol">{{ header }}</h1>
-          <p>{{ desc }}</p>
+          <p :class="textCol">{{ desc }}</p>
         </div>
       </div>
     </div>
