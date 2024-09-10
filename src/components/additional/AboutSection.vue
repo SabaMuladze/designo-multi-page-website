@@ -25,7 +25,7 @@
             alt=""
           />
           <img
-            class="max-lg:hidden sm:rounded-r-lg w-full h-full lg:w-[476px]"
+            :class="`max-lg:hidden ${imgRounded} w-full h-full lg:w-[476px]`"
             :src="despic"
             alt=""
           />
@@ -54,6 +54,7 @@ export default {
     "headCol",
     "height",
     "flex",
+    "imgRounded",
   ],
 };
 </script>

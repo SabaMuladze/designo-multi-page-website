@@ -10,6 +10,7 @@
     headCol="text-white"
     height="480px"
     flex="lg:flex-row-reverse"
+    imgRounded="rounded-r-lg"
   ></about-seciton>
   <about-seciton
     mobpic="./assets/about/mobile/image-world-class-talent.jpg"
@@ -23,6 +24,7 @@
     height="640px"
     picWidth=""
     flex="lg:flex-row"
+    imgRounded="rounded-l-lg"
   ></about-seciton>
 </template>
 
