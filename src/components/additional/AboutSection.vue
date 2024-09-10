@@ -34,7 +34,10 @@
           class="flex flex-col gap-5 md:px-10 px-6 lg:flex-1 lg:justify-center"
         >
           <h1 :class="'max-sm:text-[32px] ' + headCol">{{ header }}</h1>
-          <p :class="textCol">{{ desc }}</p>
+          <div class="flex flex-col gap-10">
+            <p :class="textCol">{{ desc }}</p>
+            <p v-if="desc2">{{ desc2 }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -55,6 +58,7 @@ export default {
     "height",
     "flex",
     "imgRounded",
+    "desc2",
   ],
 };
 </script>

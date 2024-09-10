@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex justify-between px-6 py-6 lg:py-10 max-w-[1111px] m-auto xl:px-0"
+    class="flex justify-between px-6 py-6 lg:py-10 sm:max-w-[690px] sm:px-0 lg:max-w-[1111px] m-auto lg:px-6 xl:px-0"
   >
     <div>
       <router-link to="/">
