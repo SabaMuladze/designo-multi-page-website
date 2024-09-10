@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-[64px]">
+  <section class="pb-[100px]">
     <div
       :class="`w-full flex justify-center sm:px-6 max-lg:text-center lg:h-[${height}] `"
     >

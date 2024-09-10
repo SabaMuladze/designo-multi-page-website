@@ -28,13 +28,16 @@
     imgRounded="rounded-l-lg"
     desc2="Our team is multi-disciplinary and we are not merely interested in form — content and meaning are just as important. We give great importance to craftsmanship, service, and prompt delivery. Clients have always been impressed with our high-quality outcomes that encapsulates their brand’s story and mission."
   ></about-seciton>
+  <see-location-cards></see-location-cards>
 </template>
 
 <script>
 import AboutSeciton from "./additional/AboutSection.vue";
+import SeeLocationCards from "./additional/SeeLocationCards.vue";
 export default {
   components: {
     AboutSeciton,
+    SeeLocationCards,
   },
 };
 </script>

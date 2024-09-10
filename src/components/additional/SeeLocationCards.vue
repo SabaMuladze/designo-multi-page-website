@@ -1,7 +1,7 @@
 <template>
-  <div class="flex justify-center w-full">
+  <div class="flex justify-center w-full" :class="paddingComputed">
     <div
-      class="flex w-full px-6 flex-col lg:flex-row max-w-[1111px] lg:justify-between"
+      class="flex w-full px-6 flex-col lg:flex-row max-w-[1111px] lg:justify-between lg:px-0"
     >
       <div class="flex flex-col items-center gap-4">
         <img
@@ -43,6 +43,15 @@ import Button from "./Button.vue";
 export default {
   components: {
     Button,
+  },
+  computed: {
+    paddingComputed() {
+      if (this.$route.path == "/about") {
+        return "pb-[100px]";
+      } else {
+        return "";
+      }
+    },
   },
 };
 </script>
