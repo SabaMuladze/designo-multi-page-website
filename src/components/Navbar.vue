@@ -13,7 +13,7 @@
     </div>
     <div class="sm:hidden" @click="toggleHam">
       <img
-        v-if="hamburger"
+        v-if="!hamburger"
         src="/assets/shared/mobile/icon-hamburger.svg"
         alt=""
       />
