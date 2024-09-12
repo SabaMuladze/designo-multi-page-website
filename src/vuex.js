@@ -1,20 +1,25 @@
-import { createStore } from "vuex/types/index.js";
-
+import { createStore } from "vuex"
 const store = createStore({
-    state:{
-        return:{
+    state(){
+        return{
         hamburger:true
         }
     },
     getters:{
         hamburger(state){
-            return state.hamburger
+        return state.hamburger
         }
     },
     mutations:{
-        toggleHam(state){
-        state.hamburger = !state.hamburger
-    }
-    
+        toggleMutation(state){
+         state.hamburger = !state.hamburger
+    },
 },
+actions:{
+        toggleHam({commit}){
+            commit('toggleMutation')
+        }
+    },
 })
+
+export default store

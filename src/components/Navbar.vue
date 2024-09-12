@@ -41,16 +41,13 @@
   </header>
 </template>
 <script>
+import { mapGetters, mapActions } from "vuex";
 export default {
-  inject: ["hamburger"],
+  computed: {
+    ...mapGetters(["hamburger"]),
+  },
   methods: {
-    toggleHam() {
-      if (this.hamburger == true) {
-        this.hamburger = false;
-      } else {
-        this.hamburger = true;
-      }
-    },
+    ...mapActions(["toggleHam"]),
   },
 };
 </script>
