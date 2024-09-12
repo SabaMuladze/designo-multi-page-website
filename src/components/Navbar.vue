@@ -42,11 +42,7 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      hamburger: true,
-    };
-  },
+  inject: ["hamburger"],
   methods: {
     toggleHam() {
       if (this.hamburger == true) {
