@@ -1,5 +1,6 @@
 <template>
   <Navbar />
+  <nav-mobile></nav-mobile>
   <router-view></router-view>
   <Footer></Footer>
 </template>
@@ -7,10 +8,12 @@
 <script>
 import Footer from "./components/Footer.vue";
 import Navbar from "./components/Navbar.vue";
+import NavMobile from "./components/NavMobile.vue";
 export default {
   components: {
     Navbar,
     Footer,
+    NavMobile,
   },
 };
 </script>
