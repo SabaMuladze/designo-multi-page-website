@@ -15,7 +15,9 @@
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
-          <Button>LEARN MORE</Button>
+          <router-link to="/about">
+            <Button>LEARN MORE</Button>
+          </router-link>
         </div>
         <div
           class="absolute bottom-[-120px] md:bottom-[-100px] lg:right-[100px] lg:bottom-[-10px]"

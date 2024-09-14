@@ -18,7 +18,9 @@
           </p>
         </div>
         <div>
-          <Button>GET IN TOUCH</Button>
+          <router-link to="/contact">
+            <Button>GET IN TOUCH</Button>
+          </router-link>
         </div>
       </div>
       <div
