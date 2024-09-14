@@ -1,3 +1,5 @@
+import DesignCard from './src/components/additional/DesignCard.vue';
+
 /** @type {import('tailwindcss').Config} */
 export default {
      content: [
@@ -17,6 +19,9 @@ export default {
       },
       fontFamily:{
                 'jost': ['Jost', 'sans-serif'],
+      },
+      content:{
+        DesignCardHover: 'relative w-full h-full bg-peach opacity-50 '
       }
     },
   },
