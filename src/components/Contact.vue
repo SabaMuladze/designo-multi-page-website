@@ -33,7 +33,7 @@
           placeholder="Phone"
         />
         <textarea
-          class="bg-transparent w-full placeholder:text-white placeholder:opacity-70 outline-none border-b-[1px] border-solid border-white max-h-[100px]"
+          class="bg-transparent w-full text-white placeholder:text-white placeholder:opacity-70 outline-none border-b-[1px] border-solid border-white max-h-[100px]"
           name="Message"
           cols="10"
           rows="10"
