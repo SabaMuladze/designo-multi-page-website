@@ -9,7 +9,7 @@
           alt=""
         />
         <h3>CANADA</h3>
-        <Button style="background-color: #e7816b; color: white">
+        <Button class="!bg-peach hover:!bg-lightpeach text-white">
           SEE LOCATION
         </Button>
       </div>
@@ -19,7 +19,7 @@
           alt=""
         />
         <h3>AUSTRALIA</h3>
-        <Button style="background-color: #e7816b; color: white">
+        <Button class="!bg-peach hover:!bg-lightpeach text-white">
           SEE LOCATION
         </Button>
       </div>
@@ -29,7 +29,7 @@
           alt=""
         />
         <h3>UNITED KINGDOM</h3>
-        <Button style="background-color: #e7816b; color: white">
+        <Button class="!bg-peach hover:!bg-lightpeach text-white">
           SEE LOCATION
         </Button>
       </div>
@@ -41,6 +41,11 @@
 import Button from "./Button.vue";
 
 export default {
+  data() {
+    return {
+      // hover: false,
+    };
+  },
   components: {
     Button,
   },
@@ -51,6 +56,17 @@ export default {
       } else {
         return "";
       }
+    },
+    changeBg() {
+      return {
+        color:
+          this.$route.path == "/contact" || this.$route.path == "/about"
+            ? "white"
+            : "black",
+      };
+    },
+    hoverBG() {
+      return {};
     },
   },
 };
