@@ -9,14 +9,14 @@
 }
 
 p {
-  @apply font-normal text-[16px] leading-[26px] text-darkgray;
+  @apply font-normal text-[16px] leading-[26px] text-darkgray cursor-default;
 }
 h1 {
-  @apply font-medium text-[48px] leading-[48px] tracking-[2px];
+  @apply font-medium text-[48px] leading-[48px] tracking-[2px] cursor-default;
 }
 h2 {
-  @apply font-medium text-[40px] leading-[48px] tracking-[2px];
+  @apply font-medium text-[40px] leading-[48px] tracking-[2px] cursor-default;
 }
 h3 {
-  @apply font-medium text-[20px] leading-[26px] tracking-[5px];
+  @apply font-medium text-[20px] leading-[26px] tracking-[5px] cursor-default;
 }
