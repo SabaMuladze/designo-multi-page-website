@@ -2,7 +2,7 @@ import { createStore } from "vuex"
 const store = createStore({
     state(){
         return{
-        hamburger:true
+        hamburger:false
         }
     },
     getters:{
@@ -14,10 +14,16 @@ const store = createStore({
         toggleMutation(state){
          state.hamburger = !state.hamburger
     },
+    hamburgerFalse(state){
+        state.hamburger = false
+    }
 },
 actions:{
         toggleHam({commit}){
             commit('toggleMutation')
+        },
+        hamburgerFalse({commit}){
+            commit('hamburgerFalse')
         }
     },
 })
