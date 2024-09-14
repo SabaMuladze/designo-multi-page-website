@@ -36,7 +36,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ffad9b; /* Peach color */
+  background-color: #e7816b; /* Peach color */
   opacity: 0.5; /* Adjust as needed */
   z-index: 11; /* Ensure it is below other content */
   border-radius: 12px;
