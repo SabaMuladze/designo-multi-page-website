@@ -6,7 +6,7 @@
       <img class="h-[320px] md:h-full" :src="pic" alt="" />
     </div>
     <div
-      class="group flex h-full flex-col items-center justify-center gap-5 bg-[#FDF3F0] hover:bg-peach text-center p-6 md:w-full"
+      class="group flex h-full flex-col items-center rounded-b-lg md:rounded-r-lg md:rounded-l-none lg:rounded-r-none lg:!rounded-b-lg justify-center gap-5 bg-[#FDF3F0] hover:bg-peach text-center p-6 md:w-full"
     >
       <h3 class="text-peach group-hover:text-white">{{ title }}</h3>
       <p class="group-hover:text-white">{{ desc }}</p>
