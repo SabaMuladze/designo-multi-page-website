@@ -16,7 +16,7 @@
           drop us a line.
         </p>
       </div>
-      <form class="flex-1">
+      <form class="flex-1" @click.prevent="">
         <input
           class="bg-transparent border-b-[1px] border-solid border-white py-3 w-full text-white placeholder:text-white placeholder:opacity-70 outline-none"
           type="text"
