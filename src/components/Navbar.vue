@@ -20,20 +20,32 @@
       <img v-else src="/assets/shared/mobile/icon-close.svg" alt="" />
     </div>
     <div class="max-sm:hidden">
-      <ul class="flex gap-8">
+      <ul class="flex gap-8 h-[27px]">
         <li>
           <router-link to="/about"
-            ><p class="text-[14px]">OUR COMPANY</p></router-link
+            ><p
+              class="text-[14px] hover:border-b-[1px] hover:border-black cursor-pointer"
+            >
+              OUR COMPANY
+            </p></router-link
           >
         </li>
         <li>
           <router-link to="/locations"
-            ><p class="text-[14px]">LOCATIONS</p></router-link
+            ><p
+              class="text-[14px] hover:border-b-[1px] hover:border-black cursor-pointer"
+            >
+              LOCATIONS
+            </p></router-link
           >
         </li>
         <li>
           <router-link to="/contact"
-            ><p class="text-[14px]">CONTACT</p></router-link
+            ><p
+              class="text-[14px] hover:border-b-[1px] hover:border-black cursor-pointer"
+            >
+              CONTACT
+            </p></router-link
           >
         </li>
       </ul>

@@ -38,17 +38,29 @@
           <ul class="max-sm:flex-col max-sm:gap-4 flex gap-8">
             <li>
               <router-link to="/about"
-                ><p class="text-[14px] text-white">OUR COMPANY</p></router-link
+                ><p
+                  class="text-[14px] text-white hover:border-b-[1px] hover:border-white cursor-pointer"
+                >
+                  OUR COMPANY
+                </p></router-link
               >
             </li>
             <li>
               <router-link to="/locations"
-                ><p class="text-[14px] text-white">LOCATIONS</p></router-link
+                ><p
+                  class="text-[14px] text-white hover:border-b-[1px] hover:border-white cursor-pointer"
+                >
+                  LOCATIONS
+                </p></router-link
               >
             </li>
             <li>
               <router-link to="/contact"
-                ><p class="text-[14px] text-white">CONTACT</p></router-link
+                ><p
+                  class="text-[14px] text-white hover:border-b-[1px] hover:border-white cursor-pointer"
+                >
+                  CONTACT
+                </p></router-link
               >
             </li>
           </ul>
